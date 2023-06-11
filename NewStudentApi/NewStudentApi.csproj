@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TestApp\StudentClassLibrary\StudentClassLibrary.csproj" />
+    <ProjectReference Include="..\..\TestApp\TestApp\TestApp.csproj" />
+  </ItemGroup>
+
+
+</Project>
